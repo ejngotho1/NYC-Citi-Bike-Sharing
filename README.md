@@ -97,6 +97,14 @@ Create the Checkout Times for Users Viz
 ![Trip by Gender by Weekday](https://user-images.githubusercontent.com/57301554/120095600-6ab51800-c0ec-11eb-8e4d-8f1590921bb0.PNG)
 
 
+## Deliverable 3:
+### Create a Story and Report for the Final Presentation
+#### Deliverable Requirements:
+For this part of the Challenge, you’ll create a story in Tableau and write a report that describes the key outcomes of the NYC Citibike analysis you did in the module and in Deliverable 2.
+
+In Tableau, we will create a new Story using visualizations that will support the key findings you want to show.
+
+
 
 
 
