@@ -71,21 +71,28 @@ Create the Checkout Times for Users Viz
 
 ### Ccheckout times for users
 
+#### Line graph displaying the number of bikes checked out by duration for all users, and the graph can be filtered by the hour.
+
 ![Results2](https://user-images.githubusercontent.com/57301554/120095285-c41c4780-c0ea-11eb-85e9-d3cfb7827470.PNG)
 
 ### Trips by weekday
 
 ![Results3](https://user-images.githubusercontent.com/57301554/120095288-c7173800-c0ea-11eb-8acb-f1addee2a5b5.PNG)
 
-### Checkout times by GEnder
+### Checkout times by Gender
+
+#### Line graph displaying the number of bikes that are checked out by duration for each gender by the hour, and the graph can be filtered by the hour and gender.
 
 ![Checkout Times By Gender](https://user-images.githubusercontent.com/57301554/120095593-5cff9280-c0ec-11eb-8a5e-bf149493a73f.PNG)
 
-### Trips by Gener Weekend by Hour
+### Trips by Gender Weekend by Hour
+
+#### A heatmap showing the number of bike trips for each hour of each day of the week.
 
 ![Trips by Gender Weekend by hour](https://user-images.githubusercontent.com/57301554/120095598-64bf3700-c0ec-11eb-9301-9e195dc9c63f.PNG)
 
 ### Trip by Gender by Weekday
+#### A heatmap showing the number of bike trips for each type of user and gender for each day of the week, and you can only filter by user and gender.
 
 ![Trip by Gender by Weekday](https://user-images.githubusercontent.com/57301554/120095600-6ab51800-c0ec-11eb-8e4d-8f1590921bb0.PNG)
 
