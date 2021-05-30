@@ -44,6 +44,17 @@ citibike_df['tripduration'] = pd.to_datetime(citibike_df['tripduration'], unit='
 
 citibike_df.head()
 
+Column                   Dtype  
+
+---  ------                   -----     
+
+tripduration             datetime64[ns]
+
+#### Export as new csv
+
+citibike_df.to_csv('citibike_new.csv', index=False)
+
+
 
  
 
