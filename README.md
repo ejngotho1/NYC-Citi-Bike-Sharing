@@ -19,4 +19,39 @@ Install Tableau Public
 Once you have downloaded Tableau Public, we can start the process of installing Tableau Public. The process of installing Tableau Public is very similar to installing most other programs.
 After it's finished downloading, click to open the file and then follow the on-screen instructions. This is the first screen you will see as part of the installation. Go ahead and click "Continue."
 
-### having installed tableau its time to move to the challenge
+### Having installed tableau its time to move to the challenge
+
+Deliverable 1:
+Change Trip Duration to a Datetime Format
+Deliverable Requirements:
+Using Python and Pandas functions, we will convert the "tripduration" column from an integer to a datetime datatype to get the time in hours, minutes, and seconds (00:00:00). After converting the "tripduration" column to a datetime dataytpe, we’ll export the DataFrame as a CSV file to use for the trip analysis in Deliverable 2.
+
+### Steps
+
+#### Read csv and convert to dataframe
+
+citibike_data = "201908-citibike-tripdata.csv"
+citibike_df = pd.read_csv(citibike_data)
+citibike_df.head()
+
+#### Change datatypes
+citibike_df['tripduration1'] = citibike_df['tripduration']
+citibike_df['tripduration'] = pd.to_datetime(citibike_df['tripduration'], unit='m')
+citibike_df.head()
+
+#   Column                   Dtype         
+---  ------                   -----         
+ 0   tripduration             datetime64[ns]
+ 
+
+
+
+
+
+
+
+
+
+
+
+
