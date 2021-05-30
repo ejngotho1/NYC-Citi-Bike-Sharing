@@ -28,29 +28,25 @@ Using Python and Pandas functions, we will convert the "tripduration" column fro
 
 ### Steps
 
-#### Read csv and convert to dataframe
+#### Read csv and convert to dataframe, change data types and them export as new csv file
 
+import pandas as pd
+
+##### 1. Create a DataFrame for the 201908-citibike-tripdata data. 
 citibike_data = "201908-citibike-tripdata.csv"
-
 citibike_df = pd.read_csv(citibike_data)
 
-citibike_df.head()
+##### 2. Check the datatypes of your columns. 
+citibike_df.info()
 
-#### Change datatypes
-
-citibike_df['tripduration1'] = citibike_df['tripduration']
-
+##### 3. Convert the 'tripduration' column to datetime datatype.
+citibike_df['tripdur_orig'] = citibike_df['tripduration']
 citibike_df['tripduration'] = pd.to_datetime(citibike_df['tripduration'], unit='m')
-
 citibike_df.head()
 
-Column ------------------------> Dtype  
+##### 4. Check the datatypes of your columns. 
+citibike_df.info()
 
-tripduration  -----------------> datetime64[ns]
-
-#### Export as new csv
-
-citibike_df.to_csv('citibike_new.csv', index=False)
 
 
 
