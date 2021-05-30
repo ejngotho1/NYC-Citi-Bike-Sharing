@@ -77,6 +77,18 @@ Create the Checkout Times for Users Viz
 
 ![Results3](https://user-images.githubusercontent.com/57301554/120095288-c7173800-c0ea-11eb-8acb-f1addee2a5b5.PNG)
 
+### Checkout times by GEnder
+
+![Checkout Times By Gender](https://user-images.githubusercontent.com/57301554/120095593-5cff9280-c0ec-11eb-8a5e-bf149493a73f.PNG)
+
+### Trips by Gener Weekend by Hour
+
+![Trips by Gender Weekend by hour](https://user-images.githubusercontent.com/57301554/120095598-64bf3700-c0ec-11eb-9301-9e195dc9c63f.PNG)
+
+### Trip by Gender by Weekday
+
+![Trip by Gender by Weekday](https://user-images.githubusercontent.com/57301554/120095600-6ab51800-c0ec-11eb-8e4d-8f1590921bb0.PNG)
+
 
 
 
