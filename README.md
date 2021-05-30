@@ -50,10 +50,13 @@ citibike_df['tripduration'] = pd.to_datetime(citibike_df['tripduration'], unit='
 
 citibike_df.head()
 
+![Results](https://user-images.githubusercontent.com/57301554/120095281-be266680-c0ea-11eb-9b06-dd5d381d89e7.PNG)
+
 ##### 4. Check the datatypes of your columns. 
 
 citibike_df.info()
 
+![Results1](https://user-images.githubusercontent.com/57301554/120095284-c1215700-c0ea-11eb-9f7b-d3dcd064f17c.PNG)
 
 # Deliverable 2:
 
@@ -65,6 +68,14 @@ How long bikes are checked out for all riders and genders.
 How many trips are taken by the hour for each day of the week, for all riders and genders.
 A breakdown of what days of the week a user might be more likely to check out a bike, by type of user and gender.
 Create the Checkout Times for Users Viz
+
+### Ccheckout times for users
+
+![Results2](https://user-images.githubusercontent.com/57301554/120095285-c41c4780-c0ea-11eb-85e9-d3cfb7827470.PNG)
+
+### Trips by weekday
+
+![Results3](https://user-images.githubusercontent.com/57301554/120095288-c7173800-c0ea-11eb-8acb-f1addee2a5b5.PNG)
 
 
 
