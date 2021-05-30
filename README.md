@@ -33,19 +33,40 @@ Using Python and Pandas functions, we will convert the "tripduration" column fro
 import pandas as pd
 
 ##### 1. Create a DataFrame for the 201908-citibike-tripdata data. 
+
 citibike_data = "201908-citibike-tripdata.csv"
+
 citibike_df = pd.read_csv(citibike_data)
 
 ##### 2. Check the datatypes of your columns. 
+
 citibike_df.info()
 
 ##### 3. Convert the 'tripduration' column to datetime datatype.
+
 citibike_df['tripdur_orig'] = citibike_df['tripduration']
+
 citibike_df['tripduration'] = pd.to_datetime(citibike_df['tripduration'], unit='m')
+
 citibike_df.head()
 
 ##### 4. Check the datatypes of your columns. 
+
 citibike_df.info()
+
+
+# Deliverable 2:
+
+#### Create Visualizations for the Trip Analysis
+##### Deliverable Requirements:
+###### Using Tableau, create visualizations that show:
+
+How long bikes are checked out for all riders and genders.
+How many trips are taken by the hour for each day of the week, for all riders and genders.
+A breakdown of what days of the week a user might be more likely to check out a bike, by type of user and gender.
+Create the Checkout Times for Users Viz
+
+
 
 
 
