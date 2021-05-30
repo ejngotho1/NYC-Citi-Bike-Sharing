@@ -31,17 +31,20 @@ Using Python and Pandas functions, we will convert the "tripduration" column fro
 #### Read csv and convert to dataframe
 
 citibike_data = "201908-citibike-tripdata.csv"
+
 citibike_df = pd.read_csv(citibike_data)
+
 citibike_df.head()
 
 #### Change datatypes
+
 citibike_df['tripduration1'] = citibike_df['tripduration']
+
 citibike_df['tripduration'] = pd.to_datetime(citibike_df['tripduration'], unit='m')
+
 citibike_df.head()
 
-#   Column                   Dtype         
----  ------                   -----         
- 0   tripduration             datetime64[ns]
+
  
 
 
