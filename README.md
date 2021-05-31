@@ -96,13 +96,29 @@ Create the Checkout Times for Users Viz
 
 ![Trip by Gender by Weekday](https://user-images.githubusercontent.com/57301554/120095600-6ab51800-c0ec-11eb-8e4d-8f1590921bb0.PNG)
 
+### August Trip Hours
+
+![August Peak Hrs](https://user-images.githubusercontent.com/57301554/120124661-0a20ec00-c17b-11eb-8550-b7960069d6b0.PNG)
+
+### Bike utilization
+
+![Bike Utilization](https://user-images.githubusercontent.com/57301554/120124657-042b0b00-c17b-11eb-883b-b776e382e989.PNG)
 
 ## Deliverable 3:
 ### Create a Story and Report for the Final Presentation
 #### Deliverable Requirements:
-For this part of the Challenge, you’ll create a story in Tableau and write a report that describes the key outcomes of the NYC Citibike analysis you did in the module and in Deliverable 2.
+For this part of the Challenge, we’ll create a story in Tableau and write a report that describes the key outcomes of the NYC Citibike analysis you did in the module and in Deliverable 2.
 
 In Tableau, we will create a new Story using visualizations that will support the key findings you want to show.
+
+### Dashboard showing the various aspects the citi bike rides 
+
+![NYC Citi Dashboard1](https://user-images.githubusercontent.com/57301554/120124651-fe352a00-c17a-11eb-8456-e663f75793d1.PNG)
+
+![NYC Citi Dashboard](https://user-images.githubusercontent.com/57301554/120124654-01301a80-c17b-11eb-9212-a7da78f142b4.PNG)
+
+
+
 
 
 
